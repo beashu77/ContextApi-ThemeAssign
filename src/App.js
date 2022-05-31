@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import UserInfo from './data/UserInfo';
+import React,{useContext, useState} from 'react';
 import './App.css';
+import Bag from './components/Bag';
+import Navbar from './components/Navbar';
+import { ThemeContext } from './context/ThemeContext';
 
 function App() {
+
+  const [data, setData] = useState(UserInfo);
+  console.log(data);
+  const {isLight}=useContext(ThemeContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${isLight? "light":"dark"}`}>
+      <Navbar/>
+     <Bag data={data}/>
     </div>
   );
 }

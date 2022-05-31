@@ -1,0 +1,25 @@
+
+   [
+        {
+            
+            "imgurl":"https://tse3.mm.bing.net/th?id=OIP.wcYSnHlaeA66khykqG_yuwHaHa&pid=Api&P=0&w=174&h=174",
+            "name":"Siya ",
+            "city":"Banglore",
+            "level":15,
+            "points":43.44
+        },
+        {
+            "imgurl":"https://tse3.mm.bing.net/th?id=OIP.wcYSnHlaeA66khykqG_yuwHaHa&pid=Api&P=0&w=174&h=174",
+            "name":"Aman",
+            "city":"Patna",
+            "level":18,
+            "points":43.84
+        },
+        {
+            "imgurl":"https://tse3.mm.bing.net/th?id=OIP.wcYSnHlaeA66khykqG_yuwHaHa&pid=Api&P=0&w=174&h=174",
+            "name":"Kiyara",
+            "city":"Pune",
+            "level":10,
+            "points":43.898
+        }
+    ]
